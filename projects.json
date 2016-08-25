@@ -1,0 +1,20 @@
+{
+    "projects": [{
+        "title": "/about",
+        "category": "creative",
+        "status": "continual",
+        "description": "(a collection of screenshots of \"about me\"s)"
+    },
+    {
+        "title": "scratch tab",
+        "category": "code",
+        "status": "current",
+        "description": "(a chrome extension that makes your new tab into a scratch tab)"
+    },
+    {
+        "title": "magic millennial",
+        "category": "and",
+        "status": "complete",
+        "description": "(magic 8 ball site, inspired by a mcsweeney's article)"
+    }]
+}

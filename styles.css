@@ -1,0 +1,70 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: #eee;
+    margin: 0;
+    font-family: 'Miriam Libre', sans-serif;
+    color: #696969;
+}
+
+header {
+    text-align: center;
+    padding-top: 20px;
+}
+
+header h1 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 10.5vw;
+    text-transform: uppercase;
+}
+
+header h1 span {
+    cursor: pointer;
+}
+
+header h1 span.selected {
+    text-decoration: underline;
+}
+
+header h1 span:hover {
+    text-decoration: underline;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+article {
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    box-sizing: border-box;
+    background-color: white;
+    /*box-shadow: 2px 2px 5px 1px #d6d6d6;*/
+    margin: 8px;
+}
+
+article span {
+    font-size: 3em;
+    cursor: default;
+}
+
+article span.link {
+    cursor: pointer;
+}
+
+article span.link:hover {
+    background-color: azure;
+}
+
+article span a {
+    text-decoration: none;
+    color: inherit;
+}
