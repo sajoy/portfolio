@@ -52,10 +52,20 @@ article {
     background-color: white;
     /*box-shadow: 2px 2px 5px 1px #d6d6d6;*/
     margin: 5px;
+
+    display: none;
+    /*transition: opacity 2s easeIn;*/
+}
+
+article.show {
+    display: initial;
 }
 
 article span {
     font-size: 3em;
+    cursor: default;;
+}
+article span.link {
     cursor: pointer;
 }
 
@@ -72,6 +82,7 @@ article dt, article dd {
     float: left;
     margin: 0 5px;
 }
+
 article dt { clear:both }
 
 footer {
