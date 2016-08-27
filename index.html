@@ -4,6 +4,7 @@
         <meta charset="utf-8">
         <title>SJ && C</title>
         <link href="https://fonts.googleapis.com/css?family=Miriam+Libre:400,700" rel="stylesheet">
+        <link rel="stylesheet" href="normalize.css">
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
@@ -11,6 +12,17 @@
             <h1><span id='creative'>Creative</span> <span id='op' class='selected'>&&</span> <span id='code'>Code</span></h1>
         </header>
         <main>
+            <article data-category='key'>
+                <h2>emoji key</h2>
+                <dl>
+                    <dt>🌧</dt><dd>an idea</dd>
+                    <dt>🌦</dt><dd>in progress</dd>
+                    <dt>⛅️</dt><dd>continual</dd>
+                    <dt>☀️</dt><dd>complete</dd>
+                    <dt>🌈</dt><dd>link to live project</dd>
+                    <dt>🏰</dt><dd>link to project code</dd>
+                </dl>
+            </article>
             <article data-category='creative' data-status='continual'>
                 <h2>/about</h2>
                 <p>(a collection of screenshots of "about me"s)</p>
@@ -20,7 +32,7 @@
             <article data-category='code' data-status='current'>
                 <h2>scratch tab</h2>
                 <p>(a chrome extension that makes your new tab into a scratch tab)</p>
-                <span class='status current' title='current'>🌦</span>
+                <span class='status current' title='in progress'>🌦</span>
                 <span class='link code'><a href='' title='see the code'>🏰</a></span>
             </article>
             <article data-category='and' data-status='complete'>
@@ -30,17 +42,54 @@
                 <span class='link site'><a href='' title='visit magic millennial'>🌈</a></span>
                 <span class='link code'><a href='' title='see the code'>🏰</a></span>
             </article>
+            <article data-category='creative' data-status='complete'>
+                <h2>a face in the clouds</h2>
+                <p>(college project for electronic literature class- made with Scratch before learning to code)</p>
+                <span class='status complete' title='complete'>☀️</span>
+                <span class='link site'><a href='' title='visit a face in the clouds'>🌈</a></span>
+            </article>
+            <article data-category='code' data-status='idea'>
+                <h2>cosmos</h2>
+                <p>(list blogging app with fully customizable css)</p>
+                <span class='status idea' title='idea'>🌧</span>
+                <!-- <span class='link site'><a href='' title='visit a face in the clouds'>🌈</a></span> -->
+            </article>
+            <article data-category='creative' data-status='current'>
+                <h2>a story about</h2>
+                <p>(stream of conciousness writing exercises)</p>
+                <span class='status continual' title='continual'>⛅️</span>
+                <span class='link site'><a href='' title='visit a story about'>🌈</a></span>
+            </article>
+            <article data-category='creative' data-status='current'>
+                <h2>internet worm</h2>
+                <p>(collection of favorite online articles)</p>
+                <span class='status continual' title='continual'>⛅️</span>
+                <span class='link site'><a href='' title='visit internet worm'>🌈</a></span>
+            </article>
+            <article data-category='and' data-status='continual'>
+                <h2>the most awful</h2>
+                <p>(interactive-esque quotes & short prose/ a playground of sorts)</p>
+                <span class='status continual' title='continual'>⛅️</span>
+                <span class='link site'><a href='' title='visit the most awful'>🌈</a></span>
+            </article>
+            <article data-category='and' data-status='current'>
+                <h2>pink cocoon</h2>
+                <p>(collection of web essays on identity)</p>
+                <span class='status current' title='in progress'>🌦</span>
+                <span class='link site'><a href='' title='visit the most awful'>🌈</a></span>
+            </article>
 
             <!--  template for project
-            <article data-category='[and, creative, code]' data-status='[complete, current, continual, concept]'>
+            <article data-category='[and, creative, code]' data-status='[complete, current, continual, idea]'>
                 <h2>project title</h2>
                 <p>(project description)</p>
                 <span class='status <status>'></span>
-                ⛈🌦⛅️☀️
+                🌧🌦⛅️☀️
                 <span class='link site'><a>🌈</a></span>
                 <span class='link code'><a>🏰</a></span>
             </article>
             -->
         </main>
+        <footer>&copy; <a href='/'>Sarah Joy Calpo</a> 2016</footer>
     </body>
 </html>
