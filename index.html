@@ -9,74 +9,80 @@
     </head>
     <body>
         <header>
-            <h1><span id='creative'>Creative</span> <span id='op' class='selected'>&&</span> <span id='code'>Code</span></h1>
+            <h1><span id='creative' title='view creative projects'>Creative</span> <span id='op' class='selected' title='view creative code projects'>&&</span> <span id='code' title='view code projects'>Code</span></h1>
         </header>
         <main>
-            <article data-category='key'>
-                <h2>emoji key</h2>
-                <dl>
-                    <dt>🌧</dt><dd>an idea</dd>
-                    <dt>🌦</dt><dd>in progress</dd>
-                    <dt>⛅️</dt><dd>continual</dd>
-                    <dt>☀️</dt><dd>complete</dd>
-                    <dt>🌈</dt><dd>link to live project</dd>
-                    <dt>🏰</dt><dd>link to project code</dd>
-                </dl>
+            <article data-category='creative' class='description'>
+                <h2>creative (adjective)</h2>
+                <p>relating to or involving the imagination or original ideas, especially in the production of an artistic work. "change unleashes people's creative energy"</p>
+                <!-- from http://www.oxforddictionaries.com/us/definition/american_english/creative -->
+            </article>
+            <article data-category='and' class='description'>
+                <h2>&& (logical operator)</h2>
+                <p>returns first expression if it can be converted to false; otherwise, returns the second. Thus, when used with Boolean values, && returns true if both operands can be converted to true; otherwise, returns false.</p>
+                <!-- from https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_Operators -->
+            </article>
+            <article data-category='code' class='description'>
+                <h2>code (noun)</h2>
+                <p>Computing Program instructions:
+                    "hundreds of lines of code"</p>
+                    <!-- from http://www.oxforddictionaries.com/us/definition/american_english/code -->
             </article>
             <article data-category='creative' data-status='continual'>
                 <h2>/about</h2>
                 <p>(a collection of screenshots of "about me"s)</p>
                 <span class='status continual' title='continual'>⛅️</span>
-                <span class='link site'><a href='' title='visit /about'>🌈</a></span>
+                <span class='link site'><a href='http://aboutsjc.tumblr.com/' target='_blank' title='visit /about'>🌈</a></span>
             </article>
-            <article data-category='code' data-status='current'>
+            <article data-category='code' data-status='complete'>
                 <h2>scratch tab</h2>
                 <p>(a chrome extension that makes your new tab into a scratch tab)</p>
-                <span class='status current' title='in progress'>🌦</span>
-                <span class='link code'><a href='' title='see the code'>🏰</a></span>
+                <span class='status complete' title='complete'>☀️</span>
+                <span class='link code'><a href='https://github.com/sajoy/scratch-tab'  target='_blank' title='see the code'>🏰</a></span>
+                <span class='link site'><a href='https://chrome.google.com/webstore/detail/scratch-tab/gaehhklohpncohpacfhddemnekcahfim?hl=en-US' target='_blank' title='download scratch tab'>🌈</a></span>
             </article>
             <article data-category='and' data-status='complete'>
                 <h2>magic millennial</h2>
                 <p>(magic 8 ball site, inspired by a mcsweeney's article)</p>
                 <span class='status complete' title='complete'>☀️</span>
-                <span class='link site'><a href='' title='visit magic millennial'>🌈</a></span>
-                <span class='link code'><a href='' title='see the code'>🏰</a></span>
+                <span class='link site'><a href='http://sajoy.github.io/magic-millennial/' target='_blank' title='visit magic millennial'>🌈</a></span>
+                <span class='link code'><a href='https://github.com/sajoy/magic-millennial' target='_blank' title='see the code'>🏰</a></span>
             </article>
-            <article data-category='creative' data-status='complete'>
+            <article data-category='and' data-status='complete'>
                 <h2>a face in the clouds</h2>
                 <p>(college project for electronic literature class- made with Scratch before learning to code)</p>
                 <span class='status complete' title='complete'>☀️</span>
-                <span class='link site'><a href='' title='visit a face in the clouds'>🌈</a></span>
+                <span class='link site'><a href='https://scratch.mit.edu/projects/19349431/' target='_blank' title='visit a face in the clouds'>🌈</a></span>
+                <span class='link code'><a href='https://scratch.mit.edu/projects/19349431/#editor' target='_blank' title='see the code'>🏰</a></span>
             </article>
             <article data-category='code' data-status='idea'>
                 <h2>cosmos</h2>
                 <p>(list blogging app with fully customizable css)</p>
                 <span class='status idea' title='idea'>🌧</span>
-                <!-- <span class='link site'><a href='' title='visit a face in the clouds'>🌈</a></span> -->
             </article>
             <article data-category='creative' data-status='current'>
                 <h2>a story about</h2>
                 <p>(stream of conciousness writing exercises)</p>
                 <span class='status continual' title='continual'>⛅️</span>
-                <span class='link site'><a href='' title='visit a story about'>🌈</a></span>
+                <span class='link site'><a href='https://medium.com/a-story-about' target='_blank' title='visit a story about'>🌈</a></span>
             </article>
             <article data-category='creative' data-status='current'>
                 <h2>internet worm</h2>
                 <p>(collection of favorite online articles)</p>
                 <span class='status continual' title='continual'>⛅️</span>
-                <span class='link site'><a href='' title='visit internet worm'>🌈</a></span>
+                <span class='link site'><a href='http://internetworm.tumblr.com/' target='_blank' title='visit internet worm'>🌈</a></span>
             </article>
             <article data-category='and' data-status='continual'>
                 <h2>the most awful</h2>
                 <p>(interactive-esque quotes & short prose/ a playground of sorts)</p>
                 <span class='status continual' title='continual'>⛅️</span>
-                <span class='link site'><a href='' title='visit the most awful'>🌈</a></span>
+                <span class='link site'><a href='http://www.themostawful.com/' target='_blank' title='visit the most awful'>🌈</a></span>
             </article>
             <article data-category='and' data-status='current'>
                 <h2>pink cocoon</h2>
                 <p>(collection of web essays on identity)</p>
                 <span class='status current' title='in progress'>🌦</span>
-                <span class='link site'><a href='' title='visit the most awful'>🌈</a></span>
+                <span class='link site'><a href='http://cocoon.pink/' target='_blank' title='visit pink cocoon'>🌈</a></span>
             </article>
 
             <!--  template for project
@@ -90,7 +96,20 @@
             </article>
             -->
         </main>
-        <footer>&copy; <a href='/'>Sarah Joy Calpo</a> 2016</footer>
+        <aside>
+            <h2>emoji key</h2>
+            <div>
+                <dl>
+                    <dt>🌧</dt><dd>an idea</dd>
+                    <dt>🌦</dt><dd>in progress</dd>
+                    <dt>⛅️</dt><dd>continual</dd>
+                    <dt>☀️</dt><dd>complete</dd>
+                    <dt>🌈</dt><dd>link to live project</dd>
+                    <dt>🏰</dt><dd>link to project code</dd>
+                </dl>
+            </div>
+            <h4>&hearts; & &copy; <a href='/'>SJC</a></h4>
+        </aside>
         <script type="text/javascript" src='scripts.js'></script>
     </body>
 </html>
